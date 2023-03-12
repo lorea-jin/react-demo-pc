@@ -1,0 +1,21 @@
+.pageWrap {
+  width: 100%;
+  height: 100%;
+
+  :global {
+    .resultNumber {
+      margin-top: 10px;
+      .ant-card-head {
+        font-size: 15px;
+        font-weight: normal;
+      }
+    }
+
+
+		.coverItem{
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+		}
+  }
+}

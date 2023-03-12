@@ -1,0 +1,40 @@
+.LayoutWrap {
+  height: 100vh;
+  :global {
+    .logo {
+      width: 200px;
+      height: 60px;
+      background: url('~assets/images/logo.png') no-repeat;
+      background-size: contain;
+    }
+
+    .ant-layout-header {
+      padding: 0 10px;
+    }
+    .layout-content {
+      height: 100%;
+		
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .profile {
+        color: #fff;
+        span + span {
+          margin-left: 10px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+		.routeOut{
+			margin: 24px;
+			overflow: auto;
+			// background-color: #fff;
+			// padding: 12px;
+		}
+  }
+}
